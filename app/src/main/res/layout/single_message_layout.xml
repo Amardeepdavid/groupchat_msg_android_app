@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/single_message"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingRight="25dp"
+    android:background="@drawable/message_shape"
+    android:layout_margin="15dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amardeep"
+        android:textColor="#99462503"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:id="@+id/sender_name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello fridjhgjbhbjcbbcjbcjgc j"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:id="@+id/message_text"
+        android:padding="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9:15 am"
+        android:id="@+id/time_id"
+        android:textColor="#99462503"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+    </TextView>
+</LinearLayout>
